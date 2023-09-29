@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		846622932AC6209B0027A19B /* TwoPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846622922AC6209B0027A19B /* TwoPApp.swift */; };
+		846622932AC6209B0027A19B /* TwoP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846622922AC6209B0027A19B /* TwoP.swift */; };
 		846622952AC6209B0027A19B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846622942AC6209B0027A19B /* ContentView.swift */; };
 		846622972AC6209C0027A19B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846622962AC6209C0027A19B /* Assets.xcassets */; };
 		8466229A2AC6209C0027A19B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846622992AC6209C0027A19B /* Preview Assets.xcassets */; };
@@ -26,11 +26,20 @@
 		846622BE2AC6234B0027A19B /* ConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846622BD2AC6234B0027A19B /* ConnectView.swift */; };
 		846622C02AC6236A0027A19B /* VideoCallingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846622BF2AC6236A0027A19B /* VideoCallingView.swift */; };
 		846622C32AC623D30027A19B /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846622C22AC623D30027A19B /* CustomView.swift */; };
+		84B1B8B02AC6EB2D00A9C2D8 /* StreamVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 84B1B8AF2AC6EB2D00A9C2D8 /* StreamVideo */; };
+		84B1B8B22AC6EB2D00A9C2D8 /* StreamVideoSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 84B1B8B12AC6EB2D00A9C2D8 /* StreamVideoSwiftUI */; };
+		84B1B8B42AC6EB2D00A9C2D8 /* StreamVideoUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84B1B8B32AC6EB2D00A9C2D8 /* StreamVideoUIKit */; };
+		84B1B8B72AC6EC7D00A9C2D8 /* VideoCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1B8B62AC6EC7D00A9C2D8 /* VideoCall.swift */; };
+		84B1B8B92AC6ED9700A9C2D8 /* StreamVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 84B1B8B82AC6ED9700A9C2D8 /* StreamVideo */; };
+		84B1B8BB2AC6ED9700A9C2D8 /* StreamVideoSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 84B1B8BA2AC6ED9700A9C2D8 /* StreamVideoSwiftUI */; };
+		84B1B8BD2AC6ED9700A9C2D8 /* StreamVideoUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84B1B8BC2AC6ED9700A9C2D8 /* StreamVideoUIKit */; };
+		84B1B8BF2AC6F42400A9C2D8 /* ParticipantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1B8BE2AC6F42400A9C2D8 /* ParticipantView.swift */; };
+		84B1B8C12AC6F43A00A9C2D8 /* FloatParticipantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1B8C02AC6F43A00A9C2D8 /* FloatParticipantView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8466228F2AC6209B0027A19B /* TwoP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		846622922AC6209B0027A19B /* TwoPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPApp.swift; sourceTree = "<group>"; };
+		846622922AC6209B0027A19B /* TwoP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoP.swift; sourceTree = "<group>"; };
 		846622942AC6209B0027A19B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		846622962AC6209C0027A19B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		846622992AC6209C0027A19B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		846622BD2AC6234B0027A19B /* ConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectView.swift; sourceTree = "<group>"; };
 		846622BF2AC6236A0027A19B /* VideoCallingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallingView.swift; sourceTree = "<group>"; };
 		846622C22AC623D30027A19B /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		84B1B8B62AC6EC7D00A9C2D8 /* VideoCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCall.swift; sourceTree = "<group>"; };
+		84B1B8BE2AC6F42400A9C2D8 /* ParticipantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantView.swift; sourceTree = "<group>"; };
+		84B1B8C02AC6F43A00A9C2D8 /* FloatParticipantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatParticipantView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B1B8B22AC6EB2D00A9C2D8 /* StreamVideoSwiftUI in Frameworks */,
+				84B1B8BD2AC6ED9700A9C2D8 /* StreamVideoUIKit in Frameworks */,
+				84B1B8B42AC6EB2D00A9C2D8 /* StreamVideoUIKit in Frameworks */,
+				84B1B8B92AC6ED9700A9C2D8 /* StreamVideo in Frameworks */,
+				84B1B8BB2AC6ED9700A9C2D8 /* StreamVideoSwiftUI in Frameworks */,
+				84B1B8B02AC6EB2D00A9C2D8 /* StreamVideo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,9 +99,10 @@
 		846622912AC6209B0027A19B /* TwoP */ = {
 			isa = PBXGroup;
 			children = (
+				84B1B8B52AC6EBB500A9C2D8 /* ViewModel */,
 				846622982AC6209C0027A19B /* Preview Content */,
 				846622C42AC625300027A19B /* View */,
-				846622922AC6209B0027A19B /* TwoPApp.swift */,
+				846622922AC6209B0027A19B /* TwoP.swift */,
 				846622942AC6209B0027A19B /* ContentView.swift */,
 				846622962AC6209C0027A19B /* Assets.xcassets */,
 				8466229B2AC6209C0027A19B /* Persistence.swift */,
@@ -152,6 +171,16 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		84B1B8B52AC6EBB500A9C2D8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				84B1B8B62AC6EC7D00A9C2D8 /* VideoCall.swift */,
+				84B1B8BE2AC6F42400A9C2D8 /* ParticipantView.swift */,
+				84B1B8C02AC6F43A00A9C2D8 /* FloatParticipantView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,6 +197,14 @@
 			dependencies = (
 			);
 			name = TwoP;
+			packageProductDependencies = (
+				84B1B8AF2AC6EB2D00A9C2D8 /* StreamVideo */,
+				84B1B8B12AC6EB2D00A9C2D8 /* StreamVideoSwiftUI */,
+				84B1B8B32AC6EB2D00A9C2D8 /* StreamVideoUIKit */,
+				84B1B8B82AC6ED9700A9C2D8 /* StreamVideo */,
+				84B1B8BA2AC6ED9700A9C2D8 /* StreamVideoSwiftUI */,
+				84B1B8BC2AC6ED9700A9C2D8 /* StreamVideoUIKit */,
+			);
 			productName = TwoP;
 			productReference = 8466228F2AC6209B0027A19B /* TwoP.app */;
 			productType = "com.apple.product-type.application";
@@ -196,6 +233,9 @@
 				Base,
 			);
 			mainGroup = 846622862AC6209B0027A19B;
+			packageReferences = (
+				84B1B8AE2AC6EB2D00A9C2D8 /* XCRemoteSwiftPackageReference "stream-video-swift" */,
+			);
 			productRefGroup = 846622902AC6209B0027A19B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -222,9 +262,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B1B8BF2AC6F42400A9C2D8 /* ParticipantView.swift in Sources */,
+				84B1B8C12AC6F43A00A9C2D8 /* FloatParticipantView.swift in Sources */,
 				846622BC2AC623120027A19B /* FriendChattingView.swift in Sources */,
 				846622A92AC621BC0027A19B /* LogInView.swift in Sources */,
 				8466229C2AC6209C0027A19B /* Persistence.swift in Sources */,
+				84B1B8B72AC6EC7D00A9C2D8 /* VideoCall.swift in Sources */,
 				846622BE2AC6234B0027A19B /* ConnectView.swift in Sources */,
 				846622B42AC6229B0027A19B /* P2PScreen.swift in Sources */,
 				846622A72AC6216F0027A19B /* WelcomeScreenView.swift in Sources */,
@@ -237,7 +280,7 @@
 				846622B02AC622330027A19B /* HomeScreen.swift in Sources */,
 				846622AE2AC622160027A19B /* MainMenuScreens.swift in Sources */,
 				846622C02AC6236A0027A19B /* VideoCallingView.swift in Sources */,
-				846622932AC6209B0027A19B /* TwoPApp.swift in Sources */,
+				846622932AC6209B0027A19B /* TwoP.swift in Sources */,
 				8466229F2AC6209C0027A19B /* TwoP.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,6 +417,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TwoP/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -402,6 +448,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TwoP/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -442,6 +491,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84B1B8AE2AC6EB2D00A9C2D8 /* XCRemoteSwiftPackageReference "stream-video-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GetStream/stream-video-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84B1B8AF2AC6EB2D00A9C2D8 /* StreamVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84B1B8AE2AC6EB2D00A9C2D8 /* XCRemoteSwiftPackageReference "stream-video-swift" */;
+			productName = StreamVideo;
+		};
+		84B1B8B12AC6EB2D00A9C2D8 /* StreamVideoSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84B1B8AE2AC6EB2D00A9C2D8 /* XCRemoteSwiftPackageReference "stream-video-swift" */;
+			productName = StreamVideoSwiftUI;
+		};
+		84B1B8B32AC6EB2D00A9C2D8 /* StreamVideoUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84B1B8AE2AC6EB2D00A9C2D8 /* XCRemoteSwiftPackageReference "stream-video-swift" */;
+			productName = StreamVideoUIKit;
+		};
+		84B1B8B82AC6ED9700A9C2D8 /* StreamVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84B1B8AE2AC6EB2D00A9C2D8 /* XCRemoteSwiftPackageReference "stream-video-swift" */;
+			productName = StreamVideo;
+		};
+		84B1B8BA2AC6ED9700A9C2D8 /* StreamVideoSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84B1B8AE2AC6EB2D00A9C2D8 /* XCRemoteSwiftPackageReference "stream-video-swift" */;
+			productName = StreamVideoSwiftUI;
+		};
+		84B1B8BC2AC6ED9700A9C2D8 /* StreamVideoUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84B1B8AE2AC6EB2D00A9C2D8 /* XCRemoteSwiftPackageReference "stream-video-swift" */;
+			productName = StreamVideoUIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		8466229D2AC6209C0027A19B /* TwoP.xcdatamodeld */ = {
