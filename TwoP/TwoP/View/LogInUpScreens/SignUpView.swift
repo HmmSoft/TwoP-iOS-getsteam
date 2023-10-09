@@ -69,6 +69,7 @@ struct SignUpView: View {
     
                             .navigationDestination(isPresented: $shouldTransition, destination:{
                                 MainMenuScreens()
+                                
                             })
                         
                         
