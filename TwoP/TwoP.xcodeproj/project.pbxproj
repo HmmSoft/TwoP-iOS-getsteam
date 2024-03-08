@@ -26,6 +26,9 @@
 		846622BE2AC6234B0027A19B /* ConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846622BD2AC6234B0027A19B /* ConnectView.swift */; };
 		846622C02AC6236A0027A19B /* VideoCallingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846622BF2AC6236A0027A19B /* VideoCallingView.swift */; };
 		846622C32AC623D30027A19B /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846622C22AC623D30027A19B /* CustomView.swift */; };
+		8495F2952ADFD7420095E7B0 /* SingIn:UpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495F2942ADFD7420095E7B0 /* SingIn:UpViewModel.swift */; };
+		8495F2982ADFD8430095E7B0 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 8495F2972ADFD8430095E7B0 /* GoogleSignIn */; };
+		8495F29A2ADFD8430095E7B0 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8495F2992ADFD8430095E7B0 /* GoogleSignInSwift */; };
 		84B1B8B02AC6EB2D00A9C2D8 /* StreamVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 84B1B8AF2AC6EB2D00A9C2D8 /* StreamVideo */; };
 		84B1B8B22AC6EB2D00A9C2D8 /* StreamVideoSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 84B1B8B12AC6EB2D00A9C2D8 /* StreamVideoSwiftUI */; };
 		84B1B8B42AC6EB2D00A9C2D8 /* StreamVideoUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84B1B8B32AC6EB2D00A9C2D8 /* StreamVideoUIKit */; };
@@ -64,6 +67,7 @@
 		846622BD2AC6234B0027A19B /* ConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectView.swift; sourceTree = "<group>"; };
 		846622BF2AC6236A0027A19B /* VideoCallingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallingView.swift; sourceTree = "<group>"; };
 		846622C22AC623D30027A19B /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		8495F2942ADFD7420095E7B0 /* SingIn:UpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SingIn:UpViewModel.swift"; sourceTree = "<group>"; };
 		84B1B8B62AC6EC7D00A9C2D8 /* VideoCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCall.swift; sourceTree = "<group>"; };
 		84B1B8BE2AC6F42400A9C2D8 /* ParticipantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantView.swift; sourceTree = "<group>"; };
 		84B1B8C02AC6F43A00A9C2D8 /* FloatParticipantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatParticipantView.swift; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 				84B1B8B42AC6EB2D00A9C2D8 /* StreamVideoUIKit in Frameworks */,
 				84B1B8B92AC6ED9700A9C2D8 /* StreamVideo in Frameworks */,
 				BC8964892AD00F1A00963BE8 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				8495F29A2ADFD8430095E7B0 /* GoogleSignInSwift in Frameworks */,
+				8495F2982ADFD8430095E7B0 /* GoogleSignIn in Frameworks */,
 				BC89648D2AD00F1A00963BE8 /* FirebaseFirestore in Frameworks */,
 				84B1B8BB2AC6ED9700A9C2D8 /* StreamVideoSwiftUI in Frameworks */,
 				BC89648F2AD00F1A00963BE8 /* FirebaseFunctions in Frameworks */,
@@ -189,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				84B1B8B62AC6EC7D00A9C2D8 /* VideoCall.swift */,
+				8495F2942ADFD7420095E7B0 /* SingIn:UpViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -230,6 +237,8 @@
 				BC89648C2AD00F1A00963BE8 /* FirebaseFirestore */,
 				BC89648E2AD00F1A00963BE8 /* FirebaseFunctions */,
 				BC8964902AD00F1A00963BE8 /* FirebaseFunctionsCombine-Community */,
+				8495F2972ADFD8430095E7B0 /* GoogleSignIn */,
+				8495F2992ADFD8430095E7B0 /* GoogleSignInSwift */,
 			);
 			productName = TwoP;
 			productReference = 8466228F2AC6209B0027A19B /* TwoP.app */;
@@ -262,6 +271,7 @@
 			packageReferences = (
 				84B1B8AE2AC6EB2D00A9C2D8 /* XCRemoteSwiftPackageReference "stream-video-swift" */,
 				BC8964872AD00F1A00963BE8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				8495F2962ADFD8430095E7B0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 			);
 			productRefGroup = 846622902AC6209B0027A19B /* Products */;
 			projectDirPath = "";
@@ -304,6 +314,7 @@
 				846622B72AC622C50027A19B /* FriendsScreen.swift in Sources */,
 				846622C32AC623D30027A19B /* CustomView.swift in Sources */,
 				846622B22AC6224F0027A19B /* TasksScreen.swift in Sources */,
+				8495F2952ADFD7420095E7B0 /* SingIn:UpViewModel.swift in Sources */,
 				846622952AC6209B0027A19B /* ContentView.swift in Sources */,
 				846622B02AC622330027A19B /* HomeScreen.swift in Sources */,
 				846622AE2AC622160027A19B /* MainMenuScreens.swift in Sources */,
@@ -531,6 +542,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		8495F2962ADFD8430095E7B0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 		84B1B8AE2AC6EB2D00A9C2D8 /* XCRemoteSwiftPackageReference "stream-video-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/GetStream/stream-video-swift";
@@ -550,6 +569,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		8495F2972ADFD8430095E7B0 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8495F2962ADFD8430095E7B0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		8495F2992ADFD8430095E7B0 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8495F2962ADFD8430095E7B0 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
 		84B1B8AF2AC6EB2D00A9C2D8 /* StreamVideo */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 84B1B8AE2AC6EB2D00A9C2D8 /* XCRemoteSwiftPackageReference "stream-video-swift" */;
